@@ -1,0 +1,49 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# --- Virtual environment ---
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# --- Flask specific ---
+instance/
+*.db
+*.sqlite3
+*.log
+
+# --- Editor/IDE ---
+.vscode/
+.idea/
+*.swp
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Test cache ---
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+
+# --- Build artifacts ---
+build/
+dist/
+*.egg-info/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- dotenv files ---
+.env
+.env.*
+
+# --- VS Code settings ---
+.vscode/settings.json
